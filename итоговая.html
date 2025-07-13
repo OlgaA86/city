@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Туапсе</title>
+    <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/styles.css">
+    
+</head>
+
+<body>
+    <header class="header">
+        <a href="index.html">На главную</a>
+        <div class="container">
+            <div class="header__inner">
+                <a href="#" class="logo"><span>Туапсе</span></a>
+                <nav class="nav">
+                    <ul class="nav__list">
+                        <li class="nav__item"><a href="#" class="nav__link">Главная</a></li>
+                        <li class="nav__item"><a href="#menu" class="nav__link">Туризм</a></li>
+                        <li class="nav__item"><a href="#about" class="nav__link">О городе</a></li>
+                        <li class="nav__item"><a href="#reviews" class="nav__link">Отзывы</a></li>
+                        <li class="nav__item"><a href="#contacts" class="nav__link">Контакты</a></li>
+                    </ul>
+                </nav>
+                <button class="menu-toggle" aria-label="Меню">
+                    <span class="menu-toggle__line"></span>
+                    <span class="menu-toggle__line"></span>
+                    <span class="menu-toggle__line"></span>
+                </button>
+            </div>
+        </div>
+<audio>
+ <source src="о_море.mp3" type="audio/mp3">
+</audio>
+
+    <script>
+        window.addEventListener("scroll", () => {
+            const audio = document.querySelector("audio");
+            audio.play().catch(e => console.log("Не удалось запустить"));
+        }, { once: true }); 
+        window.addEventListener("click", () => {
+            const audio = document.querySelector("audio");
+            audio.play().catch(e => console.log("Не удалось запустить"));
+        }, { once: true }); 
+    </script>
+
+    </header>
+
+    <main class="main">
+        <section class="hero">
+            <div class="container" style="padding: 0 15px;">
+                <h1 class="hero__title">Туапсе</h1>
+                <p class="hero__subtitle">Туапсе — живописный курортный город на Черноморском побережье Краснодарского края, расположенный между Геленджиком и Сочи. Основанный в 1838 году как военный пост, он получил статус города в 1896 году. Название происходит от адыгского «Туапсы» («междуречье»), что отражает его географическое положение между реками Туапсе и Паук у подножия Главного Кавказского хребта. Климат и природа Туапсе славится мягким субтропическим климатом с теплым летом и умеренной зимой. Окруженный горными массивами и лесами, город сочетает морские пейзажи с горными видами. В окрестностях находятся уникальные природные объекты: водопады, пещеры и живописные каньоны</p>
+                <div class="hero__buttons">
+                    <a href="#menu" class="btn btn--primary">Достопримечательности</a>
+                    <a href="#contacts" class="btn btn--outline">Контакты</a>
+                </div>
+            </div>
+        </section>
+
+        <section id="about" class="about">
+  <div class="video-wrapper">
+    <div class="about__video-container">
+      <video controls>
+        <source src="images/1080p_Скала_Киселева_с_квадрокоптера.mp4" type="video/mp4">
+      </video>
+    </div>
+  </div>
+  <div class="about__content">
+    <h2 class="section-title">Туапсе — жемчужина Черноморского побережья</h2>
+    <p class="about__text">
+      Туапсе – жемчужина Черноморского побережья. Этот город, утопающий в зелени гор и омываемый лазурными водами, манит туристов своей неповторимой атмосферой и богатой историей. Туапсе – это не просто курорт, это место, где встречаются прошлое и настоящее, где шум морского прибоя переплетается с шепотом вековых деревьев.
+    </p>
+    <p class="about__text">
+      История Туапсе уходит корнями в глубокую древность. Здесь, на перекрестке цивилизаций, оставили свой след греки, римляне, византийцы. Об этом свидетельствуют многочисленные археологические находки, хранящиеся в городском краеведческом музее. Прогуливаясь по улицам Туапсе, можно почувствовать дыхание истории, представить себе жизнь людей, населявших эти земли столетия назад.
+    </p>
+    <p class="about__text">
+      Современный Туапсе – это динамично развивающийся город, предлагающий своим гостям широкий спектр развлечений и возможностей для отдыха. Здесь можно найти уютные гостиницы и комфортабельные санатории, современные торговые центры и живописные парки. Но главное богатство Туапсе – это его природа. Горные хребты, покрытые густыми лесами, чистейшие реки и водопады, ласковое море и галечные пляжи – все это создает неповторимый колорит этого удивительного места.
+    </p>
+    <p class="about__text">
+      Туапсе – это город, в который хочется возвращаться снова и снова. Он очаровывает своей красотой, гостеприимством и неповторимой атмосферой. Здесь каждый найдет что-то для себя, будь то любитель активного отдыха, ценитель истории или просто желающий отдохнуть от городской суеты. Туапсе – это жемчужина Черноморского побережья, которая ждет своих открывателей.
+    </p>
+  </div>
+</section>
+
+             
+       <section id="photo-slider" class="photo-slider">
+  <div class="container">
+    <h2 class="section-title">Фотогалерея</h2>
+    <div class="slider">
+      <button class="slider-btn prev" aria-label="Предыдущий слайд">&#10094;</button>
+      <div class="slider-wrapper">
+        <div class="slider-items">
+     <img src="images/skala-Kiseleva-3.jpg" alt="Фото 1" class="slider-photo">
+      <img src="images/result_дольмен.jpg" alt="Фото 2" class="slider-photo">
+      <img src="images/result_анаст.jpg" alt="Фото 3" class="slider-photo">
+      <img src="images/222.jpg" alt="Фото 4" class="slider-photo">
+      <img src="images/гуамка3.jpg" alt="Фото 5" class="slider-photo">
+      <img src="images/перун.jpg" alt="Фото 6" class="slider-photo">
+      <img src="images/таштай.jpg" alt="Фото 7" class="slider-photo">
+    </div>
+      </div>
+      <button class="slider-btn next" aria-label="Следующий слайд">&#10095;</button>
+    </div>
+  </div>
+</section>
+
+        <section id="menu" class="menu">
+            <div class="container">
+                <h2 class="section-title">Достопримечательности Туапсе</h2>
+                <div class="menu__content active" id="attractions">
+                    <div class="menu__grid">
+                        <div class="menu-item">
+                            <div class="menu-item__image-container">
+                            <img src="images/skala-Kiseleva-3.jpg" alt="" class="menu-item__image">
+                            </div>
+                            <div class="menu-item__header">
+                                <h3 class="menu-item__title">Скала Киселева</h3>
+                                <span class="menu-item__price">44.113395°, 39.032227°</span>
+                            </div>
+                            <p class="menu-item__description">Скала Киселева – одна из самых известных достопримечательностей Туапсе; место, где снимался знаменитый эпизод фильма «Бриллиантовая рука» – рыбалка на Черных камнях.</p>
+                        </div>
+                        <div class="menu-item">
+                            <div class="menu-item__image-container">
+                            <img src="images/перун.jpg" alt="" class="menu-item__image">
+                            </div>
+                            <div class="menu-item__header">
+                                <h3 class="menu-item__title">Водопад «Перун»</h3>
+                                <span class="menu-item__price">44.129237°, 39.162261°</span>
+                            </div>
+                            <p class="menu-item__description">Водопад Перун — один из самых крупных водопадов в Туапсе, 33 метра высотой.Вода падает с большой высоты с оглушительным шумом, за что водопад и назвали в честь бога-громовержца.</p>
+                        </div>
+                        <div class="menu-item">
+                            <div class="menu-item__image-container">
+                            <img src="images/result_дольмен.jpg" alt="" class="menu-item__image">
+                            </div>
+                            <div class="menu-item__header">
+                                <h3 class="menu-item__title">Дольмены,<br>гора Богатырка</h3>
+                                <span class="menu-item__price">44.125009°,39.124688°</span>
+                            </div>
+                            <p class="menu-item__description">Дольмены считаются самыми загадочными и малоизученными памятниками древности.Каждый из них имеет свою историю, название и предназначение.</p>
+                        </div>
+                        <div class="menu-item">
+                            <div class="menu-item__image-container">
+                            <img src="images/таштай.jpg" alt="" class="menu-item__image">
+                            </div>
+                            <div class="menu-item__header">
+                                <h3 class="menu-item__title">Каньон реки Бешенка(Таштай)</h3>
+                                <span class="menu-item__price">44.262992°, 39.206201°</span>
+                            </div>
+                            <p class="menu-item__description">Каньон реки Таштай (также называют «каньон Букепки» или «Бешенка») – живописное чудо природы в Туапсинском районе Краснодарского края (село Индюк) с кристально чистой водой голубого и изумрудного отлива, светлыми мергельными скалами, фигурными берегами, купелями и водопадами.</p>
+                        </div>
+                        <div class="menu-item">
+                            <div class="menu-item__image-container">
+                            <img src="images/222.jpg" alt="" class="menu-item__image">
+                            </div>
+                            <div class="menu-item__header">
+                                <h3 class="menu-item__title">Гуамское ущелье</h3>
+                                <span class="menu-item__price">44.226998°, 39.903480°</span>
+                            </div>
+                            <p class="menu-item__description">Гуамское ущелье — живописный каньон на юге Краснодарского края с 400-метровыми отвесными скалами. Ценителей тихого созерцательного отдыха место привлекает красотой природы: реликтовыми лесами, пещерами, водопадами. А любителей экстрима — возможностью заняться скалолазанием или испытать свои силы на сложных пеших маршрутах.</p>
+                        </div>
+                        <div class="menu-item">
+                            <div class="menu-item__image-container">
+                            <img src="images/result_анаст.jpg" alt="" class="menu-item__image">
+                            </div>
+                            <div class="menu-item__header">
+                                <h3 class="menu-item__title">Мегалитический комплекс Псынако <br> ("Храм Солнца")</h3>
+                                <span class="menu-item__price">44.176278°, 39.285583°</span>
+                            </div>
+                            <p class="menu-item__description">Мегалитический комплекс «Псынако» называют туапсинским Стоунхенджем — дольмены конца первой половины III века до нашей эры предположительно служили солярной обсерваторией.</p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <section id="reviews" class="reviews">
+    <div class="container">
+        <h2 class="section-title">Отзывы</h2>
+        <div class="reviews__slider">
+            <div class="review">
+                <div class="review__rating">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                        <p class="review__text"> Рядом красивые горы и море, водопады, красивая набережная.На площади Октябрьской революции очень красивый поющий фонтан, это один из самых крупнейших поющих фонтанов на юге России.В горных лесах очень красивые туапсинские водопады, их журчание, зелень вокруг, заставляют расслабиться, освободиться от всяких мыслей и всё это способствует полнейшему отдыху организма.</p>
+                        <div class="review__author">
+                            <img src="images/девушка1.webp" alt=""
+                                class="review__photo">
+                            <span class="review__name">Людмила</span>
+                        </div>
+                    </div>
+                    
+                    <div class="review">
+                        <div class="review__rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <p class="review__text">Очень разнообразный отдых в чудесном, маленьком городе Туапсе. Пляжа основных два. Один городской, со всей инфраструктурой, кафе, раздевалками, тренажерами, местами для активных игр. Очень чисто, хорошие локации для фото. Второй пляж называют «диким», но там тоже много людей, просто развлечений меньше. Но если хочется поменьше людей вокруг, можно пройти немного дальше, за гору.
+В городе несколько музеев- военные, музей художника Киселева. Есть большой торговый центр. Маршрутные такси ходят часто и во все направления без проблем.
+Есть прогулочная пристань, поющие фонтаны, платановая аллея и много кафе.</p>
+                        <div class="review__author">
+                            <img src="images/девушка2.png" alt=""
+                                class="review__photo">
+                            <span class="review__name">Мария</span>
+                        </div>
+                    </div>
+                    
+                    <div class="review">
+                        <div class="review__rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <p class="review__text">Недалеко от Туапсе есть гора Киселева, где снимали Бриллиантовую руку. Туда интереснее добраться на катере Ирбис. Во время прогулки катер сопровождают дельфины. Выпрыгивая из воды они как бы играют с вами в догонялки. Чистейшая морская вода возле горы Киселева. Пляж закрыт горами и ощущение что вы одни, далеко от цивилизации на красивом живописном острове с чайками и дельфинами.</p>
+                        <div class="review__author">
+                            <img src="images/девушка3.jpg" alt=""
+                                class="review__photo">
+                            <span class="review__name">Наталья</span>
+                            
+                        </div>
+                     </div>   
+                </div>  
+            </div>         
+        </section>
+
+        <section id="contacts" class="contacts">
+            <div class="container">
+                <div class="contacts__inner">
+                    <div class="contacts__info">
+                        <h2 class="section-title section-title--left">Контакты</h2>
+                        <div class="contact-item">
+                            <i class="fas fa-map-marker-alt contact-icon"></i>
+                            <span>улица Пушкина,19</span>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-phone contact-icon"></i>
+                            <span>+7(989) 756-37-06</span>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-envelope contact-icon"></i>
+                            <span>asteroidea86@rambler.ru</span>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-clock contact-icon"></i>
+                            <span>Ежедневно с 09:00 до 21:00</span>
+                        </div>
+                        <div class="social-links">
+                            <a href="https://www.instagram.com/my_tuapse?igsh=MXBjdzl0MnY4ejN2cQ==" class="social-link" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                            <a href="https://vk.com/moytuapse" class="social-link" aria-label="Vkontakte"><i class="fab fa-vk"></i></a>
+                            <a href="https://t.me/my_tuapse" class="social-link" aria-label="Telegram"><i
+                                    class="fab fa-telegram-plane"></i></a>
+                        </div>
+                    </div>
+                    <div class="contacts__map">
+    <div style="position:relative;overflow:hidden;">
+        <a href="https://yandex.ru/maps/1058/tuapse/?utm_medium=mapframe&utm_source=maps" 
+           style="color:#eee;font-size:12px;position:absolute;top:0px;">Туапсе</a>
+        <a href="https://yandex.ru/maps/geo/tuapse/53166133/?ll=39.076605%2C44.098956&utm_medium=mapframe&utm_source=maps&z=14.4" 
+           style="color:#eee;font-size:12px;position:absolute;top:14px;">Яндекс Карты — транспорт, навигация, поиск мест</a>
+        <iframe 
+            src="https://yandex.ru/map-widget/v1/?ll=39.076605%2C44.098956&mode=poi&poi%5Bpoint%5D=39.073231%2C44.095363&poi%5Buri%5D=ymapsbm1%3A%2F%2Fgeo%3Fdata%3DCgg1MzE2NjEzMxI_0KDQvtGB0YHQuNGPLCDQmtGA0LDRgdC90L7QtNCw0YDRgdC60LjQuSDQutGA0LDQuSwg0KLRg9Cw0L_RgdC1IgoNJUscQhWIYTBC&z=14.4" 
+            width="560" 
+            height="400" 
+            style="position:relative; border:none;"
+            allowfullscreen>
+        </iframe>
+    </div>
+</div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__inner">
+                <div class="footer__logo">
+                    <a href="#" class="logo"><span>Туапсе</span></a>
+                    <p class="footer__text">Любимый город</p>
+                </div>
+                <div class="footer__nav">
+                    <h3 class="footer__title">Навигация</h3>
+                    <ul class="footer__list">
+                        <li><a href="#" class="footer__link">Главная</a></li>
+                        <li><a href="#menu" class="footer__link">Туризм</a></li>
+                        <li><a href="#about" class="footer__link">О городе</a></li>
+                        <li><a href="#reviews" class="footer__link">Отзывы</a></li>
+                        <li><a href="#contacts" class="footer__link">Контакты</a></li>
+                    </ul>
+                </div>
+                <div class="footer__subscribe">
+                    <h3 class="footer__title">Подписка</h3>
+                    <p class="footer__text">Подпишитесь на наши новости и акции</p>
+                    <form class="subscribe-form">
+                        <input type="email" placeholder="Ваш email" class="subscribe-input">
+                        <button type="submit" class="subscribe-btn"><i class="fas fa-paper-plane"></i></button>
+                    </form>
+                </div>
+            </div>
+            <div class="footer__bottom">
+                <p class="footer__copyright">© Copyright by Olga Alferova</p>
+            </div>
+        </div>
+    </footer>
+<script src="js/script.js"></script>
+
+</body>
+
+</html>
