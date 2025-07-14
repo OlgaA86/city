@@ -659,7 +659,7 @@ html {
     .hero {
         height: auto;
         min-height: 70vh;
-        padding: 100px 0 60px;
+        padding: 150px 25px;
     }
     
     .hero__buttons {
